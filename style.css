@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  
+}
+
+/* .more-pens {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10;
+  font-family: "Catamaran", sans-serif;
+  font-size: 12px;
+} */
+
+a.white-mode:link, a.white-mode:visited, a.white-mode:active {
+  font-family: "Catamaran", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  background: #212121;
+  padding: 8px 18px;
+  color: #f7f7f7;
+  border-radius: 20px;
+  margin: 0 4px;
+}
+a.white-mode--highlight:link, a.white-mode--highlight:visited, a.white-mode--highlight:active {
+  background: rgb(37, 37, 37);
+}
+a.white-mode:hover {
+  background: #edf3f8;
+  color: #212121;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  /* padding: 0 90px; */
+  text-align: left;
+  pointer-events: none;
+  padding: 40px 40px;
+  background: rgba(0,0,0,0.3);
+  margin-left: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "Catamaran", sans-serif;
+  pointer-events: none;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1;
+  margin-top: 14px;
+  color: #fff;
+  display: block;
+  pointer-events: none;
+}
+.title span {
+  color: #EC456C;
+}
+
+.subtitle {
+  font-family: "Catamaran", sans-serif;
+  pointer-events: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1;
+  margin-top: 0;
+  color: #ddd;
+  display: block;
+  pointer-events: none;
+}
+
+
